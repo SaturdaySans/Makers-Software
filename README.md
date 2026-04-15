@@ -53,6 +53,7 @@ The goal of this repository is to:
                         .
                         .
 
+# Instructions
 ## Getting Started - For Juniors
 
 1. Fork this repository  
@@ -70,6 +71,20 @@ The goal of this repository is to:
        git push
 
 5. Open a Pull Request
+
+## Pulling from main repository
+
+1. In your codespace:
+
+        git remote -v
+
+2. If you do NOT have an upstream remote:
+
+        git remote add upstream https://github.com/KRUSTstation/Makers-Software
+
+3. Pull from the repository
+
+        git pull upstream main
 
 ## Guidelines
 
