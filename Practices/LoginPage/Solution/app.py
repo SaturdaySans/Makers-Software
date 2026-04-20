@@ -8,7 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 load_dotenv()
 
-# Database
+# Database creation
 conn = sqlite3.connect('database.db')
 cursor = conn.cursor()
 
@@ -65,8 +65,6 @@ def logout():
     return redirect(url_for('base'))
 
 @app.route('/signup-checker', methods=['POST'])
-WELCOME admin!!
-
 def signup():
     username = request.form.get('username')
     email = request.form.get('email')
